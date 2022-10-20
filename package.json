@@ -1,5 +1,9 @@
 {
     "name": "my-package",
     "version": "1.0.0",
-    "author": "Alex Nguyen"
+    "author": "Alex Nguyen",
+    "dependencies": {},
+    "scripts": {
+        "start": "test.js"
+    }
 }
