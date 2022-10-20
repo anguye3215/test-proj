@@ -2,7 +2,20 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Updated change 3:13pm'));
+//app.get('/', (req, res) => res.send('Updated change 3:13pm'));
+
+app.get('/', (req, res) => {
+    res.write('Updated change 3:13pm');
+    res.write("Breakfast Menu");
+    for (const element of bf) {
+        res.write(element);
+    };
+    res.end();
+});
+
+
+//console.log("Hello")
+
 
 //breakfast foods
 let bf = [
@@ -76,6 +89,13 @@ let nonAlcDrinks = [
     "Tropical Juice",
     "Lemon-Tea"
 ];
+
+
+alert("Breakfast Menu");
+for (const element of bf) {
+    alert(element);
+}
+
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
