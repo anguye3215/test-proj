@@ -77,11 +77,12 @@ let nonAlcDrinks = [
     "Lemon-Tea"
 ];
 
-
+/*
 alert("Breakfast Menu");
 for (const element of bf) {
     alert(element);
 }
+*/
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
