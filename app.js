@@ -13,6 +13,9 @@ let bf = [
     "Bagel"
 ]
 
+for (i = 0; i < bf.length; i++) {
+    console.log(i + ". " + array[i]);
+}
 
 //lunch appetizers 
 let la = [
@@ -83,6 +86,7 @@ for (const element of bf) {
     alert(element);
 }
 */
+
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
