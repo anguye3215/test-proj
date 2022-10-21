@@ -14,7 +14,7 @@ let bf = [
 ]
 
 for (i = 0; i < bf.length; i++) {
-    console.log(i + ". " + array[i]);
+    console.log(i + ". " + bf[i]);
 }
 
 //lunch appetizers 
